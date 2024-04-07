@@ -5,12 +5,12 @@
 - Data Handlers:
 > - dbHandler: 負責與 Sqlite 資料庫進行互動。
 > - cacheHandler: 管理 Redis 快取的讀寫操作。
-這兩者形成了 dataHandler，用於處理所有數據相關的邏輯。
+這兩者形成了 dataHandler，用於處理所有資料相關的邏輯。
 
 - HTTP Handlers:
 > - 處理 HTTP 請求的 httpHandler 包含兩部分：
 > - POST /api/v1/ad: 用於創建廣告。
-> - GET /api/v1/ad: 用於獲取廣告信息。
+> - GET /api/v1/ad: 用於獲取廣告資訊。
 這些API的具體規範跟題目中的說明一樣。
 
 ## 前提條件
