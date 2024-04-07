@@ -1,6 +1,6 @@
 # dcard-backend-intern-assignment
-本專案採用 Sqlite 作為資料庫系統，後端框架選用 Golang 的 Fiber，並使用 Redis 作為快取。整體架構基於 Restful API 設計原則構建。
-伺服端每3分鐘會將 Sqlite 的資料和 Redis 的資料同步一遍，在建立廣告的時候會即時更新Redis，每次只會在Redis上留下接下來五分鐘有效的廣告。
+本專案採用 Sqlite 作為資料庫系統，後端框架選用 Golang 的 Fiber，並使用 Redis 作為快取。整體架構基於 Restful API 設計原則構建。<br>
+伺服器每3分鐘會將 Sqlite 的資料和 Redis 的資料同步一遍，在建立廣告的時候會即時更新Redis，每次只會在Redis上留下接下來五分鐘有效的廣告。
 
 ## 專案結構
 - Data Handlers:
